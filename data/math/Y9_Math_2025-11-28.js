@@ -1,170 +1,117 @@
-export let quizSubject = "P4-NUMB, GEOMETRY";
+export const quizSubject = "PT4 - ALGEBRA - GEOMETRY & MEASURES";
+
 let questions = [
-    {
-      numb: 1,
-      question: "What is a point of invariance?",
-      answer: "A point that remains unchanged under a transformation",
-      options: [
-        "A point that moves during a transformation",
-        "A point that remains unchanged under a transformation",
-        "A point that is always at the origin",
-        "A point that defines a line"
-      ]
-    },
-    {
-      numb: 2,
-      question: "What is the bearing of a point located 30 degrees clockwise from North?",
-      answer: "30 degrees",
-      options: [
-        "30 degrees",
-        "60 degrees",
-        "330 degrees",
-        "150 degrees"
-      ]
-    },
-    {
-      numb: 3,
-      question: "What is the first step in constructing an accurate triangle given three sides?",
-      answer: "Use a ruler to draw the longest side",
-      options: [
-        "Use a compass to draw a circle",
-        "Use a ruler to draw the longest side",
-        "Draw any side randomly",
-        "Measure angles first"
-      ]
-    },
-    {
-      numb: 4,
-      question: "What is the sum of the interior angles of a quadrilateral?",
-      answer: "360 degrees",
-      options: [
-        "180 degrees",
-        "360 degrees",
-        "540 degrees",
-        "90 degrees"
-      ]
-    },
-    {
-      numb: 5,
-      question: "If two shapes are similar, what is true about their corresponding lengths?",
-      answer: "They are in the same ratio",
-      options: [
-        "They are equal",
-        "They are in the same ratio",
-        "They are different",
-        "They are both zero"
-      ]
-    },
-    {
-      numb: 6,
-      question: "What is the area ratio of two similar shapes if their corresponding lengths are in the ratio 2:3?",
-      answer: "4:9",
-      options: [
-        "2:3",
-        "3:4",
-        "4:9",
-        "6:9"
-      ]
-    },
-    {
-      numb: 7,
-      question: "What is the length of the hypotenuse in a right-angled triangle with legs of length 3 and 4?",
-      answer: "5",
-      options: [
-        "5",
-        "7",
-        "6",
-        "8"
-      ]
-    },
-    {
-      numb: 8,
-      question: "Using Pythagoras, what is the length of the hypotenuse if one leg is √2 and the other leg is √3?",
-      answer: "√5",
-      options: [
-        "√5",
-        "√6",
-        "√7",
-        "√8"
-      ]
-    },
-    {
-      numb: 9,
-      question: "What is the sine of a 30-degree angle in a right-angled triangle?",
-      answer: "1/2",
-      options: [
-        "1/2",
-        "√2/2",
-        "√3/2",
-        "1"
-      ]
-    },
-    {
-      numb: 10,
-      question: "What is the cosine of a 60-degree angle in a right-angled triangle?",
-      answer: "1/2",
-      options: [
-        "1/2",
-        "√3/2",
-        "√2/2",
-        "1"
-      ]
-    },
-    {
-      numb: 11,
-      question: "What is the proof of Pythagoras' theorem based on?",
-      answer: "The relationship between the squares of the lengths of the sides of a right triangle",
-      options: [
-        "The angles of a triangle",
-        "The relationship between the squares of the lengths of the sides of a right triangle",
-        "The area of a triangle",
-        "The perimeter of a triangle"
-      ]
-    },
-    {
-      numb: 12,
-      question: "What is the area of a triangle with a base of 6 and a height of 4?",
-      answer: "12",
-      options: [
-        "12",
-        "24",
-        "18",
-        "20"
-      ]
-    },
-    {
-      numb: 13,
-      question: "What is the distance between the points (2, 3) and (5, 7)?",
-      answer: "5",
-      options: [
-        "5",
-        "4",
-        "6",
-        "7"
-      ]
-    },
-    {
-      numb: 14,
-      question: "What is the locus of points equidistant from a single point?",
-      answer: "A circle",
-      options: [
-   "A circle",
-        "A line",
-        "A triangle",
-        "A square"
-      ]
-    },
-    {
-      numb: 15,
-      question: "What is the area of a rectangle with length 8 and width 3?",
-      answer: "24",
-      options: [
-        "24",
-        "30",
-        "20",
-        "18"
-      ]
-    }
-  ];
-  
-  export { questions };
+  {
+    "numb": 1,
+    "question": "In triangle ABC, angle A = 45 degrees, angle B = 60 degrees, and side a = 10 cm. Using the Sine Rule, what is the length of side b?",
+    "answer": "10sin(60)/sin(45)",
+    "options": [
+      "10sin(60)/sin(45)",
+      "10sin(45)/sin(60)",
+      "10sin(75)/sin(45)",
+      "10sin(45)/sin(75)"
+    ]
+  },
+  {
+    "numb": 2,
+    "question": "If the angle subtended by an arc at the center of a circle is 100 degrees, what is the angle subtended by the same arc at any point on the remaining part of the circumference?",
+    "answer": "50 degrees",
+    "options": [
+      "50 degrees",
+      "100 degrees",
+      "200 degrees",
+      "25 degrees"
+    ]
+  },
+  {
+    "numb": 3,
+    "question": "What are the roots of the quadratic equation x^2 - 5x + 6 = 0?",
+    "answer": "x=2, x=3",
+    "options": [
+      "x=2, x=3",
+      "x=-2, x=-3",
+      "x=1, x=6",
+      "x=-1, x=-6"
+    ]
+  },
+  {
+    "numb": 4,
+    "question": "What is the center and radius of the circle with the equation (x - 3)^2 + (y + 4)^2 = 25?",
+    "answer": "Center (3, -4), Radius 5",
+    "options": [
+      "Center (3, -4), Radius 5",
+      "Center (-3, 4), Radius 5",
+      "Center (3, -4), Radius 25",
+      "Center (-3, 4), Radius 25"
+    ]
+  },
+  {
+    "numb": 5,
+    "question": "Solve the following system of linear simultaneous equations: x + y = 7 and x - y = 3.",
+    "answer": "x=5, y=2",
+    "options": [
+      "x=5, y=2",
+      "x=2, y=5",
+      "x=10, y=-3",
+      "x=4, y=3"
+    ]
+  },
+  {
+    "numb": 6,
+    "question": "If a triangle has sides a=8cm, b=10cm, and angle A=30 degrees, what is the value of sin B using the Sine Rule?",
+    "answer": "(10 * sin 30) / 8",
+    "options": [
+      "(10 * sin 30) / 8",
+      "(8 * sin 30) / 10",
+      "(10 * sin 8) / 30",
+      "(30 * sin 10) / 8"
+    ]
+  },
+  {
+    "numb": 7,
+    "question": "In a circle, if an angle subtended by an arc at the centre is 120 degrees, what is the angle subtended by the same arc at any point on the remaining part of the circumference?",
+    "answer": "60 degrees",
+    "options": [
+      "60 degrees",
+      "120 degrees",
+      "240 degrees",
+      "30 degrees"
+    ]
+  },
+  {
+    "numb": 8,
+    "question": "To solve the quadratic equation x^2 + 6x - 7 = 0 by completing the square, what constant term should be added to both sides after rearranging?",
+    "answer": "9",
+    "options": [
+      "9",
+      "3",
+      "-9",
+      "36"
+    ]
+  },
+  {
+    "numb": 9,
+    "question": "Two similar shapes have corresponding side lengths in the ratio 2:5. If the area of the smaller shape is 12 cm^2, what is the area of the larger shape?",
+    "answer": "75 cm^2",
+    "options": [
+      "75 cm^2",
+      "30 cm^2",
+      "48 cm^2",
+      "120 cm^2"
+    ]
+  },
+  {
+    "numb": 10,
+    "question": "What is the equation of a circle with centre (3, -2) and radius 5?",
+    "answer": "(x - 3)^2 + (y + 2)^2 = 25",
+    "options": [
+      "(x - 3)^2 + (y + 2)^2 = 25",
+      "(x + 3)^2 + (y - 2)^2 = 25",
+      "(x - 3)^2 + (y + 2)^2 = 5",
+      "(x + 3)^2 + (y - 2)^2 = 5"
+    ]
+  }
+];
+
+export { questions };
+
